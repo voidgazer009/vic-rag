@@ -1,0 +1,22 @@
+{
+  "logistics": {
+    "hit@5": 1.0,
+    "mrr": 1.0,
+    "questions": 12
+  },
+  "opc": {
+    "hit@5": 1.0,
+    "mrr": 0.958,
+    "questions": 12
+  },
+  "social": {
+    "hit@5": 1.0,
+    "mrr": 0.958,
+    "questions": 12
+  },
+  "trade": {
+    "hit@5": 1.0,
+    "mrr": 0.944,
+    "questions": 12
+  }
+}

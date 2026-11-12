@@ -1,6 +1,7 @@
 ---
 title: Incoterms 2020 贸易术语全解
 tags: [incoterms, 报价, 风险]
+last_reviewed: 2026-11
 ---
 # Incoterms 2020 贸易术语全解
 
@@ -35,3 +36,5 @@ Incoterms® 由国际商会（ICC）制定，现行版本为 Incoterms 2020（20
 - 刚起步、对海外物流不熟：报 FOB 或 FCA，运输由买方指定货代。
 - 想掌控运输、赚取运费差价、保证船期：报 CIF/CFR。
 - 跨境电商、小 B 客户不会清关：考虑 DDP，但要先算清目的国关税和增值税，并确认能合规作为进口商（Importer of Record）。
+
+> 注：以国际商会（ICC）最新发布的 Incoterms 版本和官方解释为准。
