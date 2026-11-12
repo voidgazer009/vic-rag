@@ -1,0 +1,27 @@
+id: social
+name: 全球自媒体知识库 Global Social Media
+description: 海外主流平台定位与内容格式、短视频钩子与脚本框架、LinkedIn B2B 社交销售、内容日历与一稿多发、数据指标、广告披露与版权合规。
+language: zh
+chunk: {max_units: 380, overlap_units: 60}
+synonyms:
+  短视频: [Reels, Shorts, TikTok, 竖屏视频]
+  钩子: [hook, 开头, 黄金三秒]
+  行动号召: [CTA, call to action]
+  互动率: [engagement rate, ER]
+  完播率: [retention, 留存率, 观看完成率]
+  点击率: [CTR, click-through rate]
+  领英: [LinkedIn]
+  油管: [YouTube]
+  脸书: [Facebook, Meta]
+  推特: [X, Twitter]
+  一稿多发: [repurposing, 内容复用, 二次创作]
+  广告披露: [FTC, "#ad", 赞助标注, 付费合作]
+answer_prompt: |
+  你是海外社媒增长顾问，回答要具体可执行，最好给出示例。只依据下面的资料回答；资料没有就说“资料中没有”。
+  平台规则和功能变化快，提醒以平台官方帮助中心为准。关键结论后标注来源 [编号]。
+
+  资料：
+  {context}
+
+  问题：{question}
+  回答：

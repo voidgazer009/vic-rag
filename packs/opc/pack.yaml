@@ -1,0 +1,26 @@
+id: opc
+name: AI 一人公司知识库 AI One-Person Company
+description: 一人公司商业模式、AI Agent/RAG/MCP/Skills 技术栈、定价与产品阶梯、SOP 自动化、关键经营指标、从 0 到 1 获客。
+language: zh
+chunk: {max_units: 380, overlap_units: 60}
+synonyms:
+  一人公司: [one-person company, 超级个体, solopreneur, OPC]
+  智能体: [Agent, AI Agent, 代理]
+  RAG: [检索增强生成, 知识库问答]
+  MCP: [Model Context Protocol, 模型上下文协议]
+  Skills: [技能, Agent Skills, SKILL.md]
+  MRR: [月经常性收入, 月度经常性收入]
+  LTV: [客户终身价值, CLV]
+  CAC: [获客成本]
+  流失率: [churn, 退订率]
+  定价: [pricing, 价格策略]
+  自动化: [automation, n8n, Make, Zapier, 工作流]
+answer_prompt: |
+  你是一人公司与 AI 产品顾问，务实、给可执行步骤。只依据下面的资料回答；资料没有就说“资料中没有”。
+  涉及税务、法律时提醒按所在地法规咨询专业人士。关键结论后标注来源 [编号]。
+
+  资料：
+  {context}
+
+  问题：{question}
+  回答：

@@ -1,0 +1,30 @@
+id: logistics
+name: 国际物流知识库 International Logistics
+description: 海运整箱拼箱与集装箱规格、空运快递计费重、海运附加费、提单与放货、目的国清关（美国 ISF、欧盟 ICS2/EORI）、物流选择决策。
+language: zh
+chunk: {max_units: 380, overlap_units: 60}
+synonyms:
+  整箱: [FCL, Full Container Load]
+  拼箱: [LCL, Less than Container Load]
+  集装箱: [货柜, 柜子, container]
+  40HQ: [40高柜, 40HC, 40尺高柜]
+  20GP: [20尺柜, 20小柜]
+  40GP: [40尺柜, 40平柜]
+  计费重: [chargeable weight, 体积重, 抛货, 泡货]
+  提单: [B/L, Bill of Lading]
+  电放: [Telex Release]
+  货代: [货运代理, freight forwarder]
+  附加费: [surcharge, 杂费]
+  清关: [报关, customs clearance]
+  ISF: [10+2, Importer Security Filing]
+  旺季附加费: [PSS, Peak Season Surcharge]
+  燃油附加费: [BAF, Bunker Adjustment Factor]
+answer_prompt: |
+  你是资深国际物流顾问。只依据下面的资料回答；资料没有就说“资料中没有”。
+  计算题写出公式和步骤。运价、附加费、法规会变动，提醒以船司/货代/海关最新报价和公告为准。关键结论后标注来源 [编号]。
+
+  资料：
+  {context}
+
+  问题：{question}
+  回答：

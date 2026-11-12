@@ -1,0 +1,12 @@
+{"q": "FOB 和 CIF 风险在哪里转移？", "expect": ["incoterms-2020"]}
+{"q": "CIP 卖方要买什么级别的保险？", "expect": ["ICC(A)"]}
+{"q": "哪个贸易术语要求卖方在目的地卸货", "expect": ["DPU"]}
+{"q": "信用证没写交单期，装运后多少天内交单", "expect": ["21 个日历日"]}
+{"q": "新客户首单付款方式怎么定比较安全", "expect": ["payment-terms"]}
+{"q": "出口退税怎么算", "expect": ["quotation-and-tax-rebate"]}
+{"q": "中国海关商品编码有几位", "expect": ["10 位"]}
+{"q": "提单有哪三个作用", "expect": ["物权凭证"]}
+{"q": "开发信怎么写才不进垃圾箱", "expect": ["customer-development"]}
+{"q": "What does MOQ mean", "expect": ["最小起订量"]}
+{"q": "双清包税是什么意思", "expect": ["DDP"]}
+{"q": "PI 形式发票要写哪些内容", "expect": ["quotation-and-tax-rebate", "glossary"]}

@@ -1,0 +1,12 @@
+{"q": "一人公司有哪些商业模式", "expect": ["business-models"]}
+{"q": "什么是服务产品化", "expect": ["Productized"]}
+{"q": "MCP 是什么", "expect": ["Model Context Protocol"]}
+{"q": "RAG 和训练模型有什么区别", "expect": ["ai-agent-stack"]}
+{"q": "怎么用价值定价", "expect": ["价值定价"]}
+{"q": "LTV 怎么算", "expect": ["LTV = ARPU"]}
+{"q": "LTV 和 CAC 比例多少才健康", "expect": ["3:1"]}
+{"q": "哪些任务适合优先自动化", "expect": ["sop-automation"]}
+{"q": "第一批客户怎么找", "expect": ["first-customers"]}
+{"q": "What is churn rate", "expect": ["流失率"]}
+{"q": "产品阶梯怎么设计", "expect": ["Value Ladder"]}
+{"q": "n8n 和 Zapier 是做什么的", "expect": ["n8n"]}

@@ -1,0 +1,12 @@
+{"q": "40HQ 能装多少立方", "expect": ["65–68"]}
+{"q": "20GP 和 40GP 内尺寸是多少", "expect": ["ocean-fcl-lcl-containers"]}
+{"q": "拼箱怎么计费", "expect": ["W/M"]}
+{"q": "空运体积重怎么算", "expect": ["6000"]}
+{"q": "快递的体积重除以多少", "expect": ["5000"]}
+{"q": "BAF 是什么费用", "expect": ["燃油附加费"]}
+{"q": "滞箱费和滞港费区别", "expect": ["Detention"]}
+{"q": "电放有什么风险", "expect": ["bill-of-lading-release"]}
+{"q": "ISF 什么时候必须申报，罚款多少", "expect": ["5,000"]}
+{"q": "美国 800 美元小额免税还有吗", "expect": ["de minimis"]}
+{"q": "进口欧盟需要什么号码", "expect": ["EORI"]}
+{"q": "FBA 头程有哪些方式", "expect": ["choosing-shipping"]}

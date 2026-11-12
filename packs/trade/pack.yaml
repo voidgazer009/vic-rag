@@ -1,0 +1,30 @@
+id: trade
+name: 外贸知识库 Foreign Trade
+description: 贸易术语 Incoterms 2020、付款方式与信用证、报价核算与出口退税、HS 编码与单证、客户开发与开发信。
+language: zh
+chunk: {max_units: 380, overlap_units: 60}
+synonyms:
+  Incoterms: [贸易术语, 国际贸易术语]
+  FOB: [离岸价, 船上交货]
+  CIF: [到岸价, 成本保险加运费]
+  EXW: [工厂交货]
+  DDP: [完税后交货, 双清包税]
+  L/C: [信用证, LC, 跟单信用证]
+  T/T: [电汇, TT]
+  D/P: [付款交单]
+  D/A: [承兑交单]
+  PI: [形式发票, Proforma Invoice]
+  HS编码: [HS Code, 海关编码, 商品编码]
+  原产地证: [产地证, CO, Certificate of Origin, Form E]
+  MOQ: [最小起订量, 起订量]
+  开发信: [cold email, 冷邮件, 外贸开发信]
+  退税: [出口退税, 退税率]
+answer_prompt: |
+  你是资深外贸业务顾问。只依据下面的资料回答；资料没有就说“资料中没有”，并建议去哪里核实（如海关、银行、货代）。
+  关键数字和结论后标注来源 [编号]。涉及法规、税率、费率时提醒以最新官方公告为准。
+
+  资料：
+  {context}
+
+  问题：{question}
+  回答：
